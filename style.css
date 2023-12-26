@@ -1,0 +1,644 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+/*----------------------------------------*/
+body {
+    background-color: #dedede57;
+    margin: 3vw 2vw 5vw 2vw;
+    font-size: small;
+    /* text-align: center; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+/* .container *{
+    margin: 2px;
+} */
+hr{
+    border: 0.1px solid rgb(197, 197, 197);
+    /* width: ; */
+    align-items: center;
+}
+div{
+    padding-bottom: 2%;
+}
+/*-------------------------------------------- */
+.container { 
+    display: flex;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+
+    
+}
+.about{
+    flex-basis: 40%;
+    margin-right: 10px;
+  
+}
+.profile-pic img{
+    width: 6vw;
+    height: 6vw;
+    border: 5px solid white;
+    
+}
+
+.table-content{
+    display: flex;
+    /* flex-basis: 10rem; */
+    flex-grow: 1;
+
+    /* font-size: x-large; */
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+td {
+    padding: 1vw;
+    border-top: 1px solid #ccc;
+
+}
+.profile-picture{
+    margin-right: 1rem;
+}
+.about h1, .sales-report p, .sales-report h2{
+    margin-bottom: 0.1rem;
+    font-weight: 400;
+    color: rgb(134, 134, 134);
+}
+
+.about h3{
+    padding-bottom: 1rem;
+   font-weight: bolder;
+   color: rgb(72, 72, 72);
+}
+.about p{
+    padding-right: 2rem;
+}
+p{
+    color: grey;
+}
+h1{
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size: 1.6em;
+    font-weight:bolder;
+    color: rgb(0, 0, 0);
+} 
+
+p{
+    font-size: 1rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.icons img,.profile-picture {
+    width: 3.5vw;
+    height: 3.5vw;
+    object-fit: cover; /* Preserve the aspect ratio and cover the container */
+    border-radius: 50%; /* Use 50% for a perfect circle */
+}
+.sales-report img{
+    display: flex;
+     width: 10vw;
+     margin-bottom: 0;
+}
+.sales-report{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: last baseline;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1em;
+    /* flex-grow: 1; */
+}
+.sales-report p, .sales-report h2 {
+    padding-left: 1.3rem;
+}
+
+
+/*---------------- Second container------------------- */
+section{
+    display: flex;
+}
+.about-section-container{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.comments{
+    flex-wrap: wrap;
+}
+.comments .icons-square{
+    float: left;
+    padding-right: 1vw;
+}
+.about-description, .connections, .meeting-container{
+    display: flex;
+    flex-direction:column ;
+    flex-grow:2 ;
+    padding:  1.2vw ;
+    gap: 10px;
+    background-color: #fbfbfb;
+    /* border: 0px; */
+    margin-bottom: 15px;
+    margin-right: 2rem;
+    width: 19vw ;
+    /* justify-content:space-around; */
+
+
+    
+}
+
+
+.about-description, .connections{
+    margin-right: 2rem;
+    background-color: white;
+
+}
+.feed-container{
+    /* padding:  1.2vw ; */
+    background-color: #fff;
+    margin-right: 7vw;
+    /* box-shadow: 2px 2px 2px  rgba(91, 91, 91, 0.365); */
+    padding-bottom: 0vw;
+
+    
+}
+.feed-about{
+display: flex;
+
+}
+.feed-about  .date{
+    font-size: small;
+    font-weight: 300;
+}
+
+
+.dropdown-icon{
+    order: 1;
+    align-self: flex-end;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    padding-bottom: 2vw;
+
+    
+}
+
+.primary{
+    padding:  1.2vw ;
+    
+}
+
+.dropdown-icon{
+    width: 10px;
+    height: 10px;
+}
+
+.icons-square{
+    width: 3.5vw;
+    height: 3.5vw;
+    object-fit: cover; 
+ 
+}
+.feed-container > .primary  img{
+    border-radius: 0px;
+}
+.job-icons img{
+    width: 3vw;
+    height: 3vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.vertical-line{
+    width: 0.5vw;
+    height: 15vw;
+    border: 1px solid black;
+    background: grey;
+    
+}
+
+.feed-heading{
+    flex-grow: 4;
+}
+.feed-about{
+    gap: 10px;
+    padding: 0rem 0rem 1rem 0rem;
+    
+}
+.about-content p,.secondary p{
+    padding-bottom: 2%;
+}
+.secondary{
+    padding: 1.2vw;
+    background-color: rgba(225, 225, 225, 0.541);
+}
+
+
+/* css buttons ----------*/
+.button-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 0;
+    width: 18vw;
+    height: 1.55vw;
+    border-radius:3px ;
+}
+
+.like-button{
+    width: 1vw;
+    height: 1vw;
+   align-items: center;
+   padding-right: 0.3vw;
+   
+ 
+}
+.button{
+    border-right: 1px solid grey;
+    padding:0.1vw 0.3vw;
+    margin: 0px;
+    font-size: 1vw;    
+
+}
+
+.button:last-child {
+    border-right: none; /* Remove the right border from the last button */
+}
+
+
+
+#comment-box{
+    max-width: 100vh;
+    min-height: 10vh;
+}
+textarea{
+    width: 33vw;
+    height: 6.5vw;
+    background-color: #fff;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: 0;
+    resize: none;
+}
+.comments strong, .feed-about h3{
+    color: #5A96E3;
+}
+.container-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container h4 {
+    margin: 0; 
+}
+
+.btn {
+
+    padding: 0.6vw 1vw;
+    border-radius: 2.5px;
+    color: white;
+    margin-left:2vw;
+}
+
+.btn-primary {
+    background-color: #5D9C59;
+}
+
+.btn-secondary {
+    background-color: #5A96E3;
+}
+
+.last-container{
+    display: flex;
+    /* gap: 5px; */
+    /* padding: 0 10px 10px 10px; */
+    flex-direction: column;
+    box-shadow: none;
+}
+.meeting-container{
+margin-right: 0px;
+}
+
+.last-container{
+    display: block;
+    flex-flow: column;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.last-container::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: rgb(228, 228, 228);
+    top: 0;
+    left: -12%;
+    margin-left: -3px;
+    z-index: -1;
+    
+}
+
+/* .right-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: -1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -10px;
+    top: 12%; 
+    transform: translateY(-50%); 
+} */
+.meeting-container {
+    position: relative;
+}
+
+/* .right-container-arrow:nth-child(1) {
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: -1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid red;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+
+.meeting-container img {
+    position: absolute;
+    width: 2em;
+    border-radius: 50%;
+    right: -1.7vw;
+    top: 0vw;
+    z-index: 10;
+    left: -5.2vw;
+    background-color: #5A96E3;
+    padding: 0.5vw;
+}
+
+
+/*---------- timeline -------------*/
+/* .last-container{
+    display: block;
+    flex-flow: column;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    background-color: #fbfbfb;
+}
+.textbox{
+    padding: 20px 30px ;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.right-container{
+    left: 50%;
+}
+.right-container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container img{
+    left: -80px;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: blue;
+    top: 0;
+    left: 45%;
+    margin-left: -3px;
+    z-index: -1;
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid red;
+    left: -15px;
+} */
+
+
+.btn:hover{
+    background-color: rgb(72, 72, 72);
+    color: white;
+    transition: .1s ease-in;
+}
+
+/* -------------Media queries for different screen sizes--------- */
+
+@media (min-width:600px) and (max-width:704px){
+ 
+    .container {
+        display: block;
+        
+    }
+    .profile-picture{
+        float: left;
+        
+    }
+
+    .container img{
+        width: 25vw;
+        height: 25vw;
+    }
+    .table-content{
+        display: inline;
+        /* margin-left: 25%; */
+        /* margin-left: 10vw; */
+        /* width: 20rem; */
+        /* padding-right:5vw ; */
+        
+    }
+    .sales-report{
+        display: inline-block;
+        margin-top: 2vw;
+      padding: 1.5vw 3vw;
+      
+    }
+     .button-container {
+  
+    padding: .3em;
+    width: 19em;
+    height: 3vw;
+    margin-top: 1em;
+
+}
+.like-button{
+    width: 1em;
+    height: 1em;
+    align-items: center;
+    padding-right: 0.3vw;
+    /* font-size: 1em; */
+ 
+}
+.button{
+
+    padding:0.5vw 0.9vw;
+    margin: 0px;
+    font-size: 2vw;    
+
+}
+.sales-report img{
+    max-width: 40vw;
+    height: 12vw;
+    margin-bottom: 2.5rem;
+    
+}
+}
+
+
+@media (max-width:599px){
+
+   
+    body{
+        margin: 3em 2em 2em 2em;
+        text-align: center;
+        /* justify-content: center; */
+
+    }
+    .container img{
+     float: none;  
+        
+    }
+    .container .profile-pic img{
+        width: 50vw;
+        height: 50vw;
+
+    }
+    
+    .feed-container{
+        text-align: left;
+       }
+    .container {
+        display: block;
+        
+    }
+    .profile-picture{
+        float: left;
+        
+    }
+    .container img{
+        width: 20vw;
+        height: 20vw;
+    }
+    .table-content{
+        margin-left: 16%;
+
+        display: inline;
+        /* margin-left: 10vw; */
+     
+        padding-right:5vw ;
+        
+    }
+    .sales-report{
+        display: inline-block;
+        margin-top: 2em;
+        max-width: 60vw;
+       
+    }
+    .sales-report img{
+        width: 40vw;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    .about-description, .connections, .secondary{
+       width: 90vw;
+    }
+   .last-container{
+    margin-top: 2em;
+    left: 10%;
+
+   }
+   .meeting-container{
+    width: 75vw;
+
+   }
+   .icons img{
+    width: 5em;
+    height: 5em;
+    
+   }
+   .meeting-container img {
+    left: -22%;
+    width: 2rem;
+   }
+   .button-container {
+  
+    padding: .3em;
+    width: 35vw;
+    height: 3vw;
+
+}
+.like-button{
+    width: 1em;
+    height: 1em;
+    align-items: center;
+    padding-right: 0.3vw;
+    font-size: 1em;
+ 
+}
+.button{
+
+    padding:0.5vw 0.9vw;
+    margin: 0px;
+    font-size: 2vw;    
+
+}
+.icons-square{
+    width: 3em;
+    height: 3em;
+    padding: 0 1em 2em 0;
+}
+textarea{
+    width: 60vw;
+    height: 15vw;
+}
+.container p{
+    padding-left: 15%;
+    /* margin: 10px; */
+
+}
+
+
+   
+}
